@@ -1,0 +1,95 @@
+.lr-warp ,
+.my-form {
+	padding: 20px;
+}
+.lr-warp .my-left,
+.lr-warp .my-right,
+.my-form {
+	box-shadow: 2px 2px 3px 3px #31708f;
+	border-radius: 20px;
+	padding: 20px 40px;
+	margin-top: 20px;
+}
+
+.lr-warp .my-right .col-md-offset-1 {
+	color: rgb(233, 123, 21);
+	font-size: 1.5rem;
+}
+
+.lr-warp .my-checkbox {
+	margin-left: 10px;
+}
+
+.my-form {
+	margin-bottom: 20px;
+}
+.my-sidebar {
+	position: fixed;
+	height: 100vh;
+	width: 300px;
+	background: rgba(30,30,30,0.8);
+	top: 0;
+	left: 0;
+	z-index: 100;
+	padding: 100px 40px;
+	display: none;
+}
+.my-sidebar .row:nth-child(2) {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+.my-sidebar-icon {
+	position: fixed;
+	left: 0px;
+	top: 50px;
+	width: 24px;
+	padding: 0 6px;
+	font-size: 20px;
+	background: #333;
+	color: #fff;
+}
+.my-sidebar .my-link-wrap {
+	margin-top: 280px;
+}
+
+.my-popup {
+	width: 480px;
+	/*	height: 400px;*/
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	box-shadow: 2px 2px 5px 2px #333;
+	background-color: rgba(30,30,30,0.8);
+	transform: translate(-50%, -50%);
+	z-index: 100;
+	padding: 20px;
+	display: none;
+}
+.my-popup .row {
+	padding: 30px 0;
+}
+.my-popup .row:nth-child(1) {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+.my-popup .row:nth-child(1) div {
+	width: 50%;
+}
+.my-popup .row:nth-child(1) div:nth-child(1) {
+	color: #f40;
+	font-size: 4rem;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.my-popup .row:nth-child(2) {
+	display: flex;
+	justify-content: space-around;
+}
+.my-popup .row:nth-child(2) li {
+	display: flex;
+	justify-content: center;
+}

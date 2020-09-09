@@ -1,0 +1,46 @@
+/* CSS Document */
+li {
+	list-style: none
+}
+
+.my-link-wrap {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	line-height: 30px;
+}
+
+.my-link-wrap li {
+	padding: 0 20px;
+}
+
+.my-link-wrap li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.my-link-wrap li:nth-child(1) a {
+	background: url(../images/logo1.gif) center center no-repeat;
+	background-size: 100%;
+}
+
+.my-link-wrap li:nth-child(2) a {
+	background: url(../images/logo2.gif) center center no-repeat;
+	background-size: 100%;
+}
+
+.my-link-wrap li:nth-child(3) a {
+	background: url(../images/logo3.gif) center center no-repeat;
+		background-size: 100%;
+}
+
+
+
+.each-selected {
+	color: chocolate !important;
+}
+
+ .footer p {
+	padding: 10px;
+}

@@ -1,0 +1,14 @@
+.lr-warp {
+	padding: 20px 0;
+}
+.lr-warp .my-left, .lr-warp .my-right {
+	box-shadow: 2px 2px 8px 4px #31708f;
+	border-radius: 20px;
+	padding: 20px 40px;
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.lr-warp .my-right .col-md-6 {
+	margin: 10px 0; 
+}

@@ -1,0 +1,77 @@
+
+/*reset*/
+li {
+	list-style: none;
+}
+
+.my-footer {
+	background: #101010;
+	color: #fff;
+}
+
+.my-footer p {
+	line-height: 30px;
+}
+
+.my-link-wrap {
+	display: flex;
+	height: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.my-link-wrap li a {
+	display: block;
+	margin: 0 10px;
+	height: 30px;
+	width: 30px;
+}
+
+.my-link-wrap li:nth-child(1) a {
+	background: url(../images/logo1.gif) no-repeat center center;
+	background-size: cover;
+}
+
+.my-link-wrap li:nth-child(2) a {
+	background: url(../images/logo2.gif) no-repeat center center;
+	background-size: cover;
+}
+.my-link-wrap li:nth-child(3) a {
+	background: url(../images/logo3.gif) no-repeat center center;
+	background-size: cover;
+}
+
+/* loading */
+.loading {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 98990;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loading .w30 {
+	width: 30vw;
+}
+
+.loading .w30 .progress-bar {
+	animation: loading 1s forwards;
+}
+
+@keyframes loading {
+	0% {
+		width: 0;
+	}
+	50% {
+		width: 30%;
+	}
+	100% {
+		width: 100%;
+	}
+}
